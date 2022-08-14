@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="./img/github.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>GitHub-Search</title>
+</head>
+<body>
+    <section class="header">
+        <h3 id="reiniciar">devFinder</h3>
+    </section>
+    <section class="search">
+        <input id="buscarUsuario" class="buscador" type="text" placeholder="Search Dev..." >
+        <button id="subir_info" class="btn_search">Search</button>
+    </section>
+    <section class="content">
+        <div class="all">
+            <h3 id="nombreUsuario" class="titulo"></h3>
+            <h3 id="creado" class="titulo"></h3>
+            <div id="foto" class="inicio">
+                <img class="gif" src="./img/giphy.gif" alt="">
+            </div>
+            <div class="biografia">
+                <h4 id="biografia"></h4>
+            </div>
+            <div id="estadisticasV2">
+                <!-- <div id="estadisticas" class="stats">
+                    <div class="repos">
+                        <p>Repos</p>
+                        <h4 id="repos"></h4>
+                    </div>
+                    <div class="followers">
+                        <p>Followers</p>
+                        <h4 id="followers"></h4>
+                    </div>
+                    <div class="following">
+                        <p>Following</p>
+                        <h4 id="following"></h4>
+                    </div>
+                </div> -->
+            </div>
+            <div class="info_person">
+                <div id="localization" class="ubication">
+                    <!-- <img src="./img/mapa.png" alt="" width="20px">
+                    <p>Rosario, Santa Fe</p> -->
+                </div>
+                <div id="web" class="enlace">
+                    <!-- <img src="./img/enlace.png" alt="" width="20px">
+                    <p>https://totomarte99.com/porfolio</p> -->
+                </div>
+                <div id="twitter" class="twitter">
+                    <!-- <img src="./img/gorjeo (1).png" alt="" width="20px">
+                    <p>@MartelonTomas</p> -->
+                </div>
+            </div>
+        
+        </div>
+    </section>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>

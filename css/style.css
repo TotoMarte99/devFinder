@@ -1,0 +1,159 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Source Code Pro', monospace;
+    background-color: #141c2f;;
+    background-image: url();
+}
+/*Buscador*/
+.header{
+    text-align: start;
+    padding: 50px;
+    color: white;
+}
+.search{
+    text-align: center;
+}
+h3.titulo {
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 20px;
+}
+.buscador{
+    padding: 15px;
+    padding-right: 80px;
+    border: none;
+    background-color: #1f2a48;
+    border-radius: 8px;
+    color: white;
+}
+.btn_search{
+    padding: 15px;
+    border: none;
+    background: #0079fe;
+    border-radius: 10px;
+    color: white;
+}
+/*Contenido*/
+.content{
+    text-align: center;
+    margin-top: 80px;
+    color: white;
+}
+.yo{
+    display: flex;
+    margin-left: 40px;
+    width: 200px;
+    border-radius: 80px;
+}
+.gif{
+    border-radius: 8px;
+}
+.inicio{
+    display: flex;
+    justify-content: space-around;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.subtitulo{
+    font-size: 10px;
+    color: #0079fe;
+}
+.biografia{
+    margin-top: 40px;
+    font-size: 10px;
+    text-align: justify;
+    margin-left: 60px;
+    margin-right:60px ;
+}
+.stats{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 28px;
+    border: #0079fe  solid 1px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+/*Info_About*/
+.info_person{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.ubication, .enlace, .twitter{
+    display: flex;
+    margin-left: 10px;
+    gap: 20px;
+    margin: 10px;
+}
+
+/*@Medias*/
+@media screen and (min-width: 700px){
+    .buscador{
+        width: 400px;
+        padding: 20px;
+    }
+    .btn_search{
+        padding: 20px;
+    }
+    .yo{
+        width: 180px;
+        margin-bottom: 30px;
+    }
+    .titulo{
+        font-size: 40px;
+    }
+    .subtitulo{
+        font-size: 20px;
+    }
+    .biografia{
+        font-size: 16px;
+    }
+    .stats{
+        font-size: 20px;
+    }
+    .ubication, .enlace, .twitter{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .titulo{
+        font-size: 60px;
+    }
+    .subtitulo{
+        font-size: 30px;
+    }
+    .biografia{
+        font-size: 20px;
+    }
+    .ubication, .enlace, .twitter{
+        font-size: 20px;
+        margin-left: 80px;
+    }
+}
+@media screen and (min-width:1300px) {
+    .titulo{
+        font-size: 30px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .biografia{
+        font-size: 20px;
+        margin-left: 200px;
+        margin-right: 200px;
+        padding: 40px;
+    }
+    .stats{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    .ubication, .enlace, .twitter{
+        font-size: 20px;
+        text-align: center;
+        margin-left: 200px;
+    }
+
+}
